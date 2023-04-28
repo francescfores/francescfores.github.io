@@ -3,10 +3,20 @@ import AppBanner from '../components/shared/AppBanner';
 import ProjectsGrid from '../components/projects/ProjectsGrid';
 import { ProjectsProvider } from '../context/ProjectsContext';
 import Button from '../components/reusable/Button';
+import {AwesomeButton} from "react-awesome-button";
 
 const Home = () => {
 	return (
-		<div className="container mx-auto pt-20">
+		<div className="container mx-auto pt-28">
+			<div className="page-control">
+				<div className="ribbon ">
+					<div className="animate__animated animate__backInLeft">
+						<a className="" target="_blank" href="https://github.com/rcaferati"
+						   title="@rcaferati">FOLLOW ON GITHUB
+						</a>
+					</div>
+				</div>
+			</div>
 			<AppBanner></AppBanner>
 			<ProjectsProvider>
 				<ProjectsGrid></ProjectsGrid>
@@ -15,10 +25,11 @@ const Home = () => {
 			<div className="mt-8 sm:mt-10 flex justify-center">
 				<Link
 					to="/projects"
-					className="font-general-medium flex items-center px-6 py-3 rounded-lg shadow-lg hover:shadow-xl bg-indigo-500 hover:bg-indigo-600 focus:ring-1 focus:ring-indigo-900 text-white text-lg sm:text-xl duration-300"
 					aria-label="Más proyectos">
-					<Button title="Más proyectos" />
-
+					<AwesomeButton type="secondary"
+								   aria-label="Hire Me Button" >
+						Más proyectos
+					</AwesomeButton>
 				</Link>
 			</div>
 		</div>
