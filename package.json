@@ -1,12 +1,17 @@
 {
-	"name": "react-tailwindcss-portfolio",
+	"name": "react-portfolio",
 	"version": "0.1.0",
 	"private": true,
+	"homepage": "https://francescfores.github.io",
 	"dependencies": {
+		"@primer/octicons-react": "^17.10.2",
 		"@testing-library/jest-dom": "^5.11.4",
 		"@testing-library/react": "^11.1.0",
 		"@testing-library/user-event": "^12.1.10",
+		"animate.css": "^4.1.1",
+		"emailjs-com": "^3.2.0",
 		"framer-motion": "4.1.17",
+		"gh-pages": "^4.0.0",
 		"postcss-cli": "^10.1.0",
 		"react": "^18.1.0",
 		"react-awesome-button": "^7.0.5",
@@ -14,18 +19,21 @@
 		"react-countup": "^6.1.1",
 		"react-dom": "^18.1.0",
 		"react-icons": "^4.3.1",
+		"react-parallax": "^3.5.1",
 		"react-router-dom": "^6.0.2",
 		"react-scripts": "4.0.3",
-		"react-scroll": "^1.8.4",
+		"react-scroll": "^1.8.9",
 		"styled-components": "^5.3.3",
 		"web-vitals": "^1.0.1"
 	},
 	"scripts": {
-		"start": "yarn run build:css && react-scripts start",
+		"start": "yarn run build:css && react-scripts --openssl-legacy-provider start",
 		"build": "yarn run react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"build:css": "postcss src/css/tailwind.css -o src/css/main.css"
+		"build:css": "postcss src/css/tailwind.css -o src/css/main.css",
+		"predeploy": "export NODE_OPTIONS=--openssl-legacy-provider && npm run build ",
+		"deploy": "gh-pages -d build"
 	},
 	"eslintConfig": {
 		"extends": [
