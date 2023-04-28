@@ -2,7 +2,7 @@
 	"name": "react-portfolio",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://francescfores.github.io",
+	"homepage": "https://francescfores.github.io/",
 	"dependencies": {
 		"@primer/octicons-react": "^17.10.2",
 		"@testing-library/jest-dom": "^5.11.4",
