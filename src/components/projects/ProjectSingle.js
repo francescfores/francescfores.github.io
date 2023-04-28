@@ -14,14 +14,14 @@ const ProjectSingle = ({ title, category, image, id }) => {
 			}}
 		>
 			<Link to="/projects/single-project" state={{ id: id }} aria-label="Single Project">
-				<div className="mx-auto  mt-4 sm:w-full md:w-3/4
+				<div className="overflow-hidden mx-auto  mt-4 sm:w-full md:w-3/4
 				 mt-10 rounded-xl shadow-lg hover:shadow-xl cursor-pointer
-				mb-10 sm:mb-0 bg-secondary-light dark:bg-ternary-dark">
-					<div>
+				mb-10 sm:mb-0 bg-secondary-light dark:bg-ternary-dark ">
+					<div class="overflow-hidden">
 						<img style={{width: "100%"}}
 							src={image}
-							className="rounded-t-xl border-none"
-							alt="Single Project"
+							className=" rounded-t-xl border-none hover:scale-110 hover:rotate-1 overflow-hidden transition-all duration-300"
+							alt="Single Project "
 						/>
 					</div>
 					<div className="text-center px-4 py-6">
