@@ -10,30 +10,33 @@ import Projects from './pages/Projects';
 import ProjectSingle from './pages/ProjectSingle';
 import { AnimatePresence } from 'framer-motion';
 import UseScrollToTop from './hooks/useScrollToTop';
+import 'react-awesome-button/dist/styles.css';
+import '../src/css/AwesomeButtonStyles.css';
+import 'animate.css';
 
 function App() {
 	return (
-		<AnimatePresence>
 			<div className=" bg-secondary-light dark:bg-primary-dark transition duration-300">
+
 				<Router>
 					<ScrollToTop />
 					<AppHeader />
+
 					<Routes>
-						<Route path="/" element={<Home />} />
-						<Route path="projects" element={<Projects />} />
+						<Route path="/" element={<Home/>} />
+						<Route path="/projects" element={<Projects/>} />
 						<Route
-							path="projects/single-project"
-							element={<ProjectSingle />}
+							path="/projects/single-project"
+							element={<ProjectSingle/>}
 						/>
 
-						<Route path="about" element={<About />} />
-						<Route path="contact" element={<Contact />} />
+						<Route path="/about" element={<About/>} />
+						<Route path="/contact" element={<Contact/>} />
 					</Routes>
 					<AppFooter />
 				</Router>
 				<UseScrollToTop />
 			</div>
-		</AnimatePresence>
 	);
 }
 
