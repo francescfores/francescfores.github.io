@@ -11,7 +11,7 @@ const Home = () => {
 			<div className="page-control">
 				<div className="ribbon ">
 					<div className="animate__animated animate__backInLeft">
-						<a className="" target="_blank" href="https://github.com/rcaferati"
+						<a className="" target="_blank" href="https://github.com/francescfores/"
 						   title="@rcaferati">FOLLOW ON GITHUB
 						</a>
 					</div>
