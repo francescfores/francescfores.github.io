@@ -10,7 +10,7 @@ const AboutMeBio = () => {
 			{/*<div className="mb-7 sm:mb-0">*/}
 			{/*	<img src={profileImage} className="rounded-lg" alt="" />*/}
 			{/*</div>*/}
-			<div className="col-span-5 sm:col-span-2 md:col-span-2 relative  mx-auto px-4 h-56 w-56">
+			<div className="col-span-5 sm:col-span-2 md:col-span-2 relative  mx-auto px-4 w-72 w-72">
 				<img className="rounded-full border border-gray-100 shadow-sm  "
 					 src={profileImage} alt="user image"/>
 			</div>
