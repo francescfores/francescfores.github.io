@@ -16,10 +16,10 @@ const ProjectsGrid = () => {
 	} = useContext(ProjectsContext);
 
 	return (
-		<section className="py-5 pt-20">
+		<section className="py-5 pt-28">
 			<div className="text-center">
 				<p className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">
-					Projects portfolio
+					Portafolio de proyectos
 				</p>
 			</div>
 
@@ -30,10 +30,10 @@ const ProjectsGrid = () => {
                         dark:text-ternary-light
                         text-md
                         sm:text-xl
-                        mb-3
+                        mb-8
                         "
 				>
-					Search projects by title or filter by category
+					Buscar proyectos por título o filtrar por categoría
 				</h3>
 				<div
 					className="
@@ -45,7 +45,7 @@ const ProjectsGrid = () => {
                         gap-3
                         "
 				>
-					<div className="flex justify-between gap-2">
+					<div className="flex justify-between ">
 						<span
 							className="
                                 hidden
@@ -84,7 +84,7 @@ const ProjectsGrid = () => {
 							name="name"
 							type="search"
 							required=""
-							placeholder="Search Projects"
+							placeholder="Buscar"
 							aria-label="Name"
 						/>
 					</div>
@@ -93,33 +93,36 @@ const ProjectsGrid = () => {
 				</div>
 			</div>
 
-			<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10">
+			<div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 mt-10 sm:gap-10 p-6">
 				{selectProject
 					? selectProjectsByCategory.map((project) => (
-							<ProjectSingle
-								title={project.title}
-								category={project.category}
-								image={project.img}
-								key={project.id}
-							/>
-					  ))
+						<ProjectSingle
+							title={project.title}
+							category={project.category}
+							image={project.img}
+							key={project.id}
+							id={project.id}
+						/>
+					))
 					: searchProject
-					? searchProjectsByTitle.map((project) => (
+						? searchProjectsByTitle.map((project) => (
 							<ProjectSingle
 								title={project.title}
 								category={project.category}
 								image={project.img}
 								key={project.id}
+								id={project.id}
 							/>
-					  ))
-					: projects.map((project) => (
+						))
+						: projects.map((project) => (
 							<ProjectSingle
 								title={project.title}
 								category={project.category}
 								image={project.img}
+								id={project.id}
 								key={project.id}
 							/>
-					  ))}
+						))}
 			</div>
 		</section>
 	);

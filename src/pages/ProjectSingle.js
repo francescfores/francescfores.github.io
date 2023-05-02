@@ -4,8 +4,14 @@ import ProjectInfo from '../components/projects/ProjectInfo';
 import ProjectRelatedProjects from '../components/projects/ProjectRelatedProjects';
 import { SingleProjectProvider } from '../context/SingleProjectContext';
 import { motion } from 'framer-motion';
+import {useLocation} from "react-router-dom";
+
 
 const ProjectSingle = () => {
+	const location = useLocation()
+	const id  = location.state.id
+
+	console.log(id)
 	return (
 		<motion.div
 			initial={{ opacity: 0 }}
@@ -15,13 +21,12 @@ const ProjectSingle = () => {
 				duration: 0.6,
 				delay: 0.15,
 			}}
-			className="container mx-auto mt-5 sm:mt-10"
+			className="container mx-auto"
 		>
-			<SingleProjectProvider>
+			<SingleProjectProvider id={id} >
 				<ProjectHeader />
 				<ProjectGallery />
 				<ProjectInfo />
-				<ProjectRelatedProjects />
 			</SingleProjectProvider>
 		</motion.div>
 	);

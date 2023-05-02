@@ -6,13 +6,13 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				'primary-light': '#F7F8FC',
+				'primary-light': '#F5F6FA',
 				'secondary-light': '#FFFFFF',
 				'ternary-light': '#f6f7f8',
 
-				'primary-dark': '#0D2438',
-				'secondary-dark': '#102D44',
-				'ternary-dark': '#1E3851',
+				'primary-dark': '#151D33',
+				'secondary-dark': '#19233d',
+				'ternary-dark': '#233054',
 			},
 			container: {
 				padding: {

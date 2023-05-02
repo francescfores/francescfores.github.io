@@ -5,19 +5,19 @@ import MobileImage1 from '../images/mobile-project-1.jpg';
 import MobileImage2 from '../images/mobile-project-2.jpg';
 import UIImage1 from '../images/ui-project-1.jpg';
 import UIImage2 from '../images/ui-project-2.jpg';
-import Dunes from '../images/projects/dunes_mockup7.png';
-import Easy2bwise from '../images/projects/easy2bwise_mokup4.png';
-import DatandTec from '../images/projects/datantec_mokup5.png';
-import DatandTecApp from '../images/projects/datantecapp_full.png';
+import Dunes from '../images/projects/dunes_2.png';
+import Easy2bwise from '../images/projects/porfolio_easy.png';
+import DatandTec from '../images/projects/porfolio6.png';
+import DatandTecApp from '../images/projects/datandtec_app_2.png';
 import CaptioWeb from '../images/projects/captio_web.png';
 import CaptioMobile from '../images/projects/captiomobile.png';
 
 export const projectsData = [
 	{
-		id: 2,
-		title: 'easy2bwise',
+		id: 1,
+		title: 'Les dunes restaurant',
 		category: 'Web Application',
-		img: Easy2bwise,
+		img: Dunes,
 		ProjectHeader: {
 			title: 'Project Management UI - From Context',
 			publishDate: 'Jul 26, 2021',
@@ -25,10 +25,10 @@ export const projectsData = [
 		},
 	},
 	{
-		id: 1,
-		title: 'Les dunes restaurant',
-		category: 'UI/UX Design',
-		img: Dunes,
+		id: 2,
+		title: 'easy2bwise',
+		category: 'Web Application',
+		img: Easy2bwise,
 		ProjectHeader: {
 			title: 'Project Management UI - From Context',
 			publishDate: 'Jul 26, 2021',
@@ -73,5 +73,40 @@ export const projectsData = [
 			publishDate: 'Jul 26, 2021',
 			tags: 'UI / Frontend',
 		},
+	},
+	{
+		id: 5,
+		title: 'Stonecad',
+		category: 'Web Application',
+		img: Dunes,
+		ProjectHeader: {
+			title: 'Project Management UI - From Context',
+			publishDate: 'Jul 26, 2021',
+			tags: 'UI / Frontend',
+		},
+	},
+	{
+		id: 8,
+		title: 'Project Management UI',
+		category: 'UI/UX Design',
+		img: UIImage1,
+	},
+	{
+		id: 9,
+		title: 'Cloud Storage Platform',
+		category: 'UI/UX Design',
+		img: UIImage2,
+	},
+	{
+		id: 10,
+		title: 'React Social App',
+		category: 'Mobile Application',
+		img: MobileImage1,
+	},
+	{
+		id: 11,
+		title: 'Apple Design System',
+		category: 'Web Application',
+		img: WebImage1,
 	},
 ];

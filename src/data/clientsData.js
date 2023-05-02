@@ -1,54 +1,88 @@
 // Import images
-import AmazonImage from '../images/brands/amazon_gray.png';
-import SonyImage from '../images/brands/sony_gray.png';
-import AdidasImage from '../images/brands/adidas_gray.png';
-import FilaImage from '../images/brands/fila_gray.png';
-import NBImage from '../images/brands/nb_gray.png';
-import SamsungImage from '../images/brands/samsung_gray.png';
-import CanonImage from '../images/brands/canon_gray.png';
-import PumaImage from '../images/brands/puma_gray.png';
+import angular from '../images/logos/angular-icon-1.svg';
+import css from '../images/logos/css-3.svg';
+import javascript from '../images/logos/javascript-1.svg';
+import html from '../images/logos/html-1.svg';
+import typescript from '../images/logos/typescript.svg';
+import symfony from '../images/logos/symfony-seeklogo.com.svg';
+import docker from '../images/logos/docker.svg';
+import mysql from '../images/logos/mysql-seeklogo.com.svg';
+import laravel from '../images/logos/Laravel.svg';
+import php from '../images/logos/php.svg';
+import xamarin from '../images/logos/xamarin.svg';
+import android from '../images/logos/android.svg';
+import c from '../images/logos/c--4.svg';
+import ios from '../images/logos/ios-2.svg';
+import ionicframework from '../images/logos/ionicframework-icon.svg';
+import jquery from '../images/logos/jquery-2.svg';
+import nodejs from '../images/logos/nodejs.svg';
+import npm from '../images/logos/Npm-logo.svg';
+import wordpress from '../images/logos/wordpress-blue.svg';
+import react from '../images/logos/react-seeklogo.com.svg';
+import scrum from '../images/logos/scrum-1.svg';
 
-export const clientsHeading = 'Some of the brands that trust me';
+export const clientsHeading = 'Tecnologias con als que he trabajado';
 
 export const clientsData = [
 	{
-		id: 1,
-		title: 'Amazon',
-		img: AmazonImage,
-	},
-	{
-		id: 2,
-		title: 'Sony',
-		img: SonyImage,
-	},
-	{
-		id: 3,
-		title: 'Adidas',
-		img: AdidasImage,
-	},
-	{
-		id: 4,
-		title: 'FILA',
-		img: FilaImage,
-	},
-	{
-		id: 5,
-		title: 'NB',
-		img: NBImage,
-	},
-	{
 		id: 6,
-		title: 'SAMSUNG',
-		img: SamsungImage,
+		img: php,
 	},
 	{
 		id: 7,
-		title: 'CANON',
-		img: CanonImage,
+		img: laravel,
 	},
 	{
 		id: 8,
-		title: 'PUMA',
-		img: PumaImage,
+		img: symfony,
+	},
+	{
+		id: 9,
+		img: mysql,
+	},
+	{
+		id: 10,
+		img: docker,
+	},
+	{
+		id: 1,
+		img: angular,
+	},
+	{
+		id: 2,
+		img: css,
+	},
+	{
+		id: 3,
+		img: javascript,
+	},
+	{
+		id: 4,
+		img: html,
+	},
+	{
+		id: 5,
+		img: typescript,
+	},
+
+	{
+		id: 11,
+		img: ionicframework,
+	},
+	{
+		id: 12,
+		img: xamarin,
+	},
+	{
+		id: 13,
+		img: android,
+	},
+	{
+		id: 15,
+		img: c,
+	},
+	{
+		id: 20,
+		img: react,
 	},
 ];

@@ -3,9 +3,13 @@ import { singleProjectData as singleProjectDataJson } from '../data/singleProjec
 
 const SingleProjectContext = createContext();
 
-export const SingleProjectProvider = ({ children }) => {
+export const SingleProjectProvider = ({ children, id }) => {
+	console.log('SingleProjectProvider')
+	console.log(id)
+    let x =	singleProjectDataJson.find(x=>x.id===id)
+
 	const [singleProjectData, setSingleProjectData] = useState(
-		singleProjectDataJson
+		x
 	);
 
 	return (

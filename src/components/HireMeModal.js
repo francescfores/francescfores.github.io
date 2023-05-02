@@ -1,15 +1,29 @@
 import { motion } from 'framer-motion';
-import { FiX } from 'react-icons/fi';
+import {FiArrowDownCircle, FiX} from 'react-icons/fi';
 import Button from './reusable/Button';
+import {AwesomeButton} from "react-awesome-button";
+import 'react-awesome-button/dist/styles.css';
+import '../css/AwesomeButtonStyles.css';
+import emailjs from 'emailjs-com';
 
 const selectOptions = [
 	'Web Application',
 	'Mobile Application',
 	'UI/UX Design',
-	'Branding',
+	'Others',
 ];
 
 const HireMeModal = ({ onClose, onRequest }) => {
+	function sendEmail(e) {
+		e.preventDefault();    //This is important, i'm not sure why, but the email won't send without it
+
+		emailjs.sendForm('service_qpmlnoi', 'template_abjg5wh', e.target, '_YANOLXtQnuK89YXX')
+			.then((result) => {
+				window.location.reload()  //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior)
+			}, (error) => {
+				console.log(error.text);
+			});
+	}
 	return (
 		<motion.div
 			initial={{ opacity: 0 }}
@@ -37,16 +51,14 @@ const HireMeModal = ({ onClose, onRequest }) => {
 						</div>
 						<div className="modal-body p-5 w-full h-full">
 							<form
-								onSubmit={(e) => {
-									e.preventDefault();
-								}}
-								className="max-w-xl m-4 text-left"
+								onSubmit={sendEmail}
+							className="max-w-xl m-4 text-left"
 							>
 								<div className="">
 									<input
 										className="w-full px-5 py-2 border dark:border-secondary-dark rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
 										id="name"
-										name="name"
+										name="from_name"
 										type="text"
 										required=""
 										placeholder="Nombre"
@@ -57,7 +69,7 @@ const HireMeModal = ({ onClose, onRequest }) => {
 									<input
 										className="w-full px-5 py-2 border dark:border-secondary-dark rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
 										id="email"
-										name="email"
+										name="to_name"
 										type="text"
 										required=""
 										placeholder="Email"
@@ -68,7 +80,7 @@ const HireMeModal = ({ onClose, onRequest }) => {
 									<select
 										className="w-full px-5 py-2 border dark:border-secondary-dark rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
 										id="subject"
-										name="subject"
+										name="option"
 										type="text"
 										required=""
 										aria-label="Project Category"
@@ -83,7 +95,6 @@ const HireMeModal = ({ onClose, onRequest }) => {
 										))}
 									</select>
 								</div>
-
 								<div className="mt-6">
 									<textarea
 										className="w-full px-5 py-2 border dark:border-secondary-dark rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
@@ -96,39 +107,21 @@ const HireMeModal = ({ onClose, onRequest }) => {
 									></textarea>
 								</div>
 
-								<div className="mt-6 pb-4 sm:pb-1">
-									<span
-										onClick={onClose}
-										type="submit"
-										className="px-4
-											sm:px-6
-											py-2
-											sm:py-2.5
-											text-white
-											bg-indigo-500
-											hover:bg-indigo-600
-											rounded-md
-											focus:ring-1 focus:ring-indigo-900 duration-500"
-										aria-label="Submit Request"
-									>
-										<Button title="Enviar" />
-									</span>
+								<div className="mt-6 pb-4 sm:pb-1 inline-block">
+
+										<AwesomeButton type="primary submit"
+													   aria-label="Hire Me Button" className="mt-10">
+										Enviar&nbsp;
+									</AwesomeButton>
 								</div>
 							</form>
 						</div>
 						<div className="modal-footer mt-2 sm:mt-0 py-5 px-8 border0-t text-right">
-							<span
-								onClick={onClose}
-								type="button"
-								className="px-4
-									sm:px-6
-									py-2 bg-gray-600 text-primary-light hover:bg-ternary-dark dark:bg-gray-200 dark:text-secondary-dark dark:hover:bg-primary-light
-									rounded-md
-									focus:ring-1 focus:ring-indigo-900 duration-500"
-								aria-label="Close Modal"
-							>
-								<Button title="Cerrar" />
-							</span>
+
+								<AwesomeButton type="secondary" onPress={onClose} aria-label="Hire Me Button"
+												className="mt-10">
+							Cerrar
+						</AwesomeButton>
 						</div>
 					</div>
 				</div>

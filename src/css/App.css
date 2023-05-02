@@ -1,4 +1,4 @@
-/*== 
+/*==
  * React & TailwindCSS Portfolio Main CSS File
  * Powered by: @realstoman
 */
@@ -217,11 +217,30 @@ body {
 	cursor: pointer;
 	animation: fadeIn 0.3s;
 	transition: opacity 0.4s;
-	opacity: 0.9;
+	opacity: 0.6;
 }
 
 .scrollToTop:hover {
 	opacity: 1;
+}
+
+.dark .dark\:scrollToTop {
+	@apply bg-indigo-600;
+	color: whitesmoke;
+	position: fixed;
+	width: 100%;
+	align-items: center;
+	height: 20px;
+	justify-content: center;
+	z-index: 999;
+	cursor: pointer;
+	animation: fadeIn 0.3s;
+	transition: opacity 0.4s;
+	opacity: 0.6;
+}
+.dark .dark\:scrollToTop:hover {
+	opacity: 1;
+
 }
 
 @keyframes fadeIn {
@@ -231,4 +250,138 @@ body {
 	100% {
 		opacity: 0.5;
 	}
+}
+
+.development {
+	content:url("../images/develop_light2.svg");
+}
+.dark .dark\:development {
+	content:url("../images/develop_dark3.svg");
+}
+
+.pl-5{
+	padding-left: 8.5rem;
+}
+.pr-5{
+	padding-right: 8.5rem;
+}
+
+.parallax {
+	z-index: 999999999;
+	/* The image used */
+	background-image: url("../images/computer-program-coding-screen.jpg");
+
+	/* Set a specific height */
+	min-height: 200px;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.h-10 {
+	height: 9.00rem;
+}
+
+.h-12 {
+	height: 20.00rem;
+}
+
+.w-80-per{
+	width: 75%;
+}
+
+.ribbon {
+	z-index: 9999;
+	background-color: #1e88e5;
+	overflow: hidden;
+	white-space: nowrap;
+	position: fixed;
+	right: -60px;
+	bottom: 28px;
+	transform: rotate(-45deg);
+}
+.ribbon a {
+	transition: all 1s linear;
+	color: #fff;
+	display: block;
+	font: bold 58% 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	margin: 1px 0;
+	padding: 5px 50px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 0 5px #444;
+}
+/*
+@media (max-width: 1024px){
+.page-control .ribbon a {
+	width: 200%;
+	left: -12%;
+	top: -29%;
+	font-size: 11px;
+
+}
+}
+@media (max-width: 1460px) {
+	.page-control .ribbon a {
+		width: 200%;
+		left: -15%;
+		top: -25%;
+	}
+}
+@media (max-width: 1920px) {
+	.page-control .ribbon a {
+		width: 220%;
+		left: -35%;
+		top: -20%;
+	}
+}
+@media (max-width: 3000px) {
+	.page-control .ribbon a {
+		width: 220%;
+		left: -35%;
+		top: -20%;
+	}
+}
+*/
+
+
+
+
+.card {
+	font-size: 164px;
+	width: 300px;
+	height: 430px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: white;
+	border-radius: 20px;
+	box-shadow: 0 0 1px hsl(0deg 0% 0% / 0.075), 0 0 2px hsl(0deg 0% 0% / 0.075),
+	0 0 4px hsl(0deg 0% 0% / 0.075), 0 0 8px hsl(0deg 0% 0% / 0.075),
+	0 0 16px hsl(0deg 0% 0% / 0.075);
+	transform-origin: 10% 60%;
+}
+
+.card-container {
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	padding-top: 20px;
+	margin-bottom: -120px;
+}
+
+.splash {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	clip-path: path(
+			"M 0 303.5 C 0 292.454 8.995 285.101 20 283.5 L 460 219.5 C 470.085 218.033 480 228.454 480 239.5 L 500 430 C 500 441.046 491.046 450 480 450 L 20 450 C 8.954 450 0 441.046 0 430 Z"
+	);
 }

@@ -2,7 +2,6 @@ const selectOptions = [
 	'Web Application',
 	'Mobile Application',
 	'UI/UX Design',
-	'Branding',
 ];
 
 const ProjectsFilter = ({ setSelectProject }) => {
@@ -11,8 +10,8 @@ const ProjectsFilter = ({ setSelectProject }) => {
 			onChange={(e) => {
 				setSelectProject(e.target.value);
 			}}
-			className="font-general-medium 
-                px-4
+			className="font-general-medium
+                px-1
                 sm:px-6
                 py-2
                 border
@@ -27,8 +26,8 @@ const ProjectsFilter = ({ setSelectProject }) => {
                 dark:text-ternary-light
             "
 		>
-			<option value={setSelectProject} className="text-sm sm:text-md">
-				All Projects
+			<option value='' className="text-sm sm:text-md">
+				Todos
 			</option>
 
 			{selectOptions.map((option) => (

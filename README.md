@@ -1,7 +1,9 @@
 # React & TailwindCSS Portfolio - With Dark Mode
-
-A simple portfolio starter theme built with React and Tailwind CSS. This is the React version of [vuejs-tailwindcss-portfolio](https://github.com/realstoman/vuejs-tailwindcss-portfolio).
-
+<!--- error in file 
+/home/fran/Documentos/Code/portfolio/react-tailwindcss-portfolio-main2/node_modules/react-awesome-button/dist/styles.css 
+replace calc(var(--button-raise-level) * -1) to  calc(-1 *var(--button-raise-level)
+or replace content file to styleAwaseonButton.css bugfixed
+--->.
 ![React-TailwindCSS-Portfolio](https://user-images.githubusercontent.com/16396664/146666086-28e88beb-c2f0-431f-adfb-2396d8f64c80.png)
 
 ## Demo URL
