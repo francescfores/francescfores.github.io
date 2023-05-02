@@ -10,7 +10,7 @@ or replace content file to styleAwaseonButton.css bugfixed
 [https://francescfores.github.io/](https://francescfores.github.io/)
 
 
-![React-TailwindCSS-Portfolio](./src/images/mockup_.png)
+![React-TailwindCSS-Portfolio](./src/images/mockup_2.png)
 
 ¡Gracias por visitar mi portfolio!
 
