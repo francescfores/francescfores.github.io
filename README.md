@@ -1,4 +1,4 @@
-# React & TailwindCSS Portfolio - With Dark Mode
+# Portfolio con React & TailwindCSS
 <!--- error in file 
 /home/fran/Documentos/Code/portfolio/react-tailwindcss-portfolio-main2/node_modules/react-awesome-button/dist/styles.css 
 replace calc(var(--button-raise-level) * -1) to  calc(-1 *var(--button-raise-level)
