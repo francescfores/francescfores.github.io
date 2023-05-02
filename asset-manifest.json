@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.d32c6135.chunk.css",
-    "main.js": "/static/js/main.744a8df4.chunk.js",
-    "main.js.map": "/static/js/main.744a8df4.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.bef5f8f4.js",
-    "runtime-main.js.map": "/static/js/runtime-main.bef5f8f4.js.map",
+    "main.css": "/static/css/main.9e7b3dc0.chunk.css",
+    "main.js": "/static/js/main.15461f2d.chunk.js",
+    "main.js.map": "/static/js/main.15461f2d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.98f39a7c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.98f39a7c.js.map",
     "static/css/2.e67ab898.chunk.css": "/static/css/2.e67ab898.chunk.css",
-    "static/js/2.c2f7398a.chunk.js": "/static/js/2.c2f7398a.chunk.js",
-    "static/js/2.c2f7398a.chunk.js.map": "/static/js/2.c2f7398a.chunk.js.map",
-    "static/js/3.dd0e9791.chunk.js": "/static/js/3.dd0e9791.chunk.js",
-    "static/js/3.dd0e9791.chunk.js.map": "/static/js/3.dd0e9791.chunk.js.map",
+    "static/js/2.c1a76928.chunk.js": "/static/js/2.c1a76928.chunk.js",
+    "static/js/2.c1a76928.chunk.js.map": "/static/js/2.c1a76928.chunk.js.map",
+    "static/js/3.aa577383.chunk.js": "/static/js/3.aa577383.chunk.js",
+    "static/js/3.aa577383.chunk.js.map": "/static/js/3.aa577383.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.e67ab898.chunk.css.map": "/static/css/2.e67ab898.chunk.css.map",
-    "static/css/main.d32c6135.chunk.css.map": "/static/css/main.d32c6135.chunk.css.map",
-    "static/js/2.c2f7398a.chunk.js.LICENSE.txt": "/static/js/2.c2f7398a.chunk.js.LICENSE.txt",
+    "static/css/main.9e7b3dc0.chunk.css.map": "/static/css/main.9e7b3dc0.chunk.css.map",
+    "static/js/2.c1a76928.chunk.js.LICENSE.txt": "/static/js/2.c1a76928.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/develop_light2.0b9a4285.svg",
     "static/media/Laravel.d0cb2f2a.svg": "/static/media/Laravel.d0cb2f2a.svg",
     "static/media/Npm-logo.3cad4cc6.svg": "/static/media/Npm-logo.3cad4cc6.svg",
@@ -55,7 +55,7 @@
     "static/media/mysql-seeklogo.com.e5a509a5.svg": "/static/media/mysql-seeklogo.com.e5a509a5.svg",
     "static/media/nodejs.bf5fe4f8.svg": "/static/media/nodejs.bf5fe4f8.svg",
     "static/media/php.f14cc420.svg": "/static/media/php.f14cc420.svg",
-    "static/media/pohoto2.e1424888.png": "/static/media/pohoto2.e1424888.png",
+    "static/media/profile.fa72a265.png": "/static/media/profile.fa72a265.png",
     "static/media/react-seeklogo.com.ae626225.svg": "/static/media/react-seeklogo.com.ae626225.svg",
     "static/media/scrum-1.30cc70c9.svg": "/static/media/scrum-1.30cc70c9.svg",
     "static/media/symfony-seeklogo.com.b147dc8d.svg": "/static/media/symfony-seeklogo.com.b147dc8d.svg",
@@ -68,10 +68,10 @@
     "static/media/xamarin.d6f00d86.svg": "/static/media/xamarin.d6f00d86.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.bef5f8f4.js",
+    "static/js/runtime-main.98f39a7c.js",
     "static/css/2.e67ab898.chunk.css",
-    "static/js/2.c2f7398a.chunk.js",
-    "static/css/main.d32c6135.chunk.css",
-    "static/js/main.744a8df4.chunk.js"
+    "static/js/2.c1a76928.chunk.js",
+    "static/css/main.9e7b3dc0.chunk.css",
+    "static/js/main.15461f2d.chunk.js"
   ]
 }
