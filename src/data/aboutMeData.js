@@ -2,7 +2,7 @@ export const aboutMeData = [
 	{
 		id: 1,
 		bio: '' +
-			'Desarrollador de software Full Stack con experiencia en la creación de aplicaciones web/mobile.\n' +
+			'Hola soy Francesc Fores, desarrollador de software Full Stack con experiencia en la creación de aplicaciones web/mobile.\n' +
 			'\n'
 
 

@@ -17,19 +17,19 @@ or replace content file to styleAwaseonButton.css bugfixed
 
 ## Características
 
-- [React v18](https://reactjs.org) con [React Router v6](https://reactrouter.com)
+- [React 18] (https://react.dev/blog/2022/03/29/react-v18)
 - [Tailwind CSS v3] (https://tailwindcss.com)
+- Diseño simple y responsivo
+- Modo oscuro
 - API de contexto para la gestión del estado
 - Ganchos personalizados
 - Transiciones y animaciones de Framer Motion
 - Componentes reutilizables
-- Modo oscuro
 - Filtro de proyectos por categoría
+- Proyectos filtrados por búsqueda
 - Desplazamiento suave
-- Formas dinámicas
 - Botón paa volver a la parte superior
 - Botón Descargar archivo
-- Diseño simple y receptivo
 
 ## Commandos
 
@@ -42,7 +42,7 @@ or replace content file to styleAwaseonButton.css bugfixed
 ##### Inicie un servidor de desarrollo local en `http://localhost:3000`:
     $ yarn start
 
-##### Compilar tailwin
+##### Compilar tailwind
     $ npm run build:css o postcss src/css/tailwind.css -o src/css/main.css
 
 ## Publicar en gh-pages
