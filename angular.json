@@ -19,17 +19,21 @@
             "polyfills": [
               "zone.js"
             ],
+            "allowedCommonJsDependencies": [
+              "jquery",
+            ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
+              "src/favicon.ico",
+              "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/styles/tailwind.css",
             ],
-            "scripts": []
+            "scripts" :[
+              "node_modules/jquery/dist/jquery.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -65,6 +69,13 @@
               "buildTarget": "portfolio:build:development"
             }
           },
+          "styles": [
+              "src/styles.css",
+              "src/assets/styles/tailwind.css",
+            ],
+          "scripts" :[
+              "node_modules/jquery/dist/jquery.min.js"
+            ],
           "defaultConfiguration": "development"
         },
         "extract-i18n": {
@@ -79,13 +90,12 @@
             ],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
+              "src/favicon.ico",
+              "src/assets"
             ],
-            "styles": [
-              "src/styles.css"
+           "styles": [
+              "src/styles.css",
+              "src/assets/styles/tailwind.css",
             ],
             "scripts": []
           }
