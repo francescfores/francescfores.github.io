@@ -1,1 +1,131 @@
-<p>about works!</p>
+<div class=" bg-secondary-light dark:bg-primary-dark transition duration-300">
+   <div class="">
+      <nav id="nav" class=" z-50 xs:h-3 xs:mt-1 bg-primary-light dark:bg-ternary-dark w-full justify-center items-center " style="opacity: 1; position: fixed;">
+         <div class="z-10 block sm:flex sm:justify-between sm:px-6 xs:pt-0">
+            <div class="flex justify-between items-center px-4 sm:px-0 ">
+               <div class="py-2 align-text-"><a href="/"><img src="data:image/png;base64,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" class="w-8" alt="Dark Logo"></a></div>
+               <a class="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2" aria-label="Projects" href="/projects"></a>
+               <div aria-label="Theme Switcher" class="ml-auto block sm:hidden bg-primary-light dark:bg-ternary-dark p-3 shadow-sm rounded-xl cursor-pointer">
+                  <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-gray-200 hover:text-gray-50 text-xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                     <circle cx="12" cy="12" r="5"></circle>
+                     <line x1="12" y1="1" x2="12" y2="3"></line>
+                     <line x1="12" y1="21" x2="12" y2="23"></line>
+                     <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                     <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                     <line x1="1" y1="12" x2="3" y2="12"></line>
+                     <line x1="21" y1="12" x2="23" y2="12"></line>
+                     <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                     <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                  </svg>
+               </div>
+               <div class="sm:hidden ">
+                  <svg viewBox="0 0 8.5 4" overflow="visible" preserveAspectRatio="none" width="34" height="16" style="margin-left: 2rem;">
+                     <line x1="0" x2="8.5" y1="0" y2="0" stroke="#3399cc" stroke-width="4" vector-effect="non-scaling-stroke" transform-origin="0px 0px" style="transform: none; transform-origin: 0px 0px;"></line>
+                     <line x1="0" x2="8.5" y1="2" y2="2" stroke="#3399cc" stroke-width="4" vector-effect="non-scaling-stroke" opacity="1"></line>
+                     <line x1="0" x2="8.5" y1="4" y2="4" stroke="#3399cc" stroke-width="4" vector-effect="non-scaling-stroke" transform-origin="0px 0px" style="transform: none; transform-origin: 0px 0px;"></line>
+                  </svg>
+               </div>
+            </div>
+            <div class="hidden">
+               <a class="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2" aria-label="Projects" href="/projects">Proyectos</a><a class="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark" aria-label="About Me" href="/about">Acerca de mí</a><a class="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark" aria-label="Contact" href="/contact">Contacto</a>
+               <div class=" border-t-2 pt-3 sm:pt-0 sm:border-t-0 border-primary-light dark:border-secondary-dark"><button class="aws-btn aws-btn--primary aws-btn--visible false" role="button"><span class="aws-btn__wrapper"><span class="aws-btn__content"><span>Contratación</span></span></span></button></div>
+            </div>
+            <div class="hidden sm:flex justify-between items-center ">
+               <div class="pr-7 font-general-medium hidden m-0 sm:ml-4  sm:mt-3 sm:flex  justify-center items-center shadow-lg sm:shadow-none"><a class="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2" aria-label="Projects" href="/projects">Proyecto</a><a class="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2" aria-label="About Me" href="/about">Acerca de mí</a><a class="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2" aria-label="Contact" href="/contact">Contacto</a></div>
+               <div class="hidden md:flex mt-2"><button class="aws-btn aws-btn--primary aws-btn--visible false" role="button"><span class="aws-btn__wrapper"><span class="aws-btn__content"><span>Contratación</span></span></span></button></div>
+               <div aria-label="Theme Switcher" class="mt-2 bg-primary-light dark:bg-ternary-dark p-3 shadow-sm rounded-xl cursor-pointer">
+                  <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-gray-200 hover:text-gray-50 text-xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                     <circle cx="12" cy="12" r="5"></circle>
+                     <line x1="12" y1="1" x2="12" y2="3"></line>
+                     <line x1="12" y1="21" x2="12" y2="23"></line>
+                     <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                     <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                     <line x1="1" y1="12" x2="3" y2="12"></line>
+                     <line x1="21" y1="12" x2="23" y2="12"></line>
+                     <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                     <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                  </svg>
+               </div>
+            </div>
+         </div>
+         <div></div>
+      </nav>
+   </div>
+   <div class="page-control">
+      <div class="ribbon ">
+         <div class="animate__animated animate__bounceInLeft"><a class="" target="_blank" href="https://github.com/francescfores" title="@rcaferati">FOLLOW ON GITHUB</a></div>
+      </div>
+   </div>
+   <div class="container mx-auto" style="opacity: 1;">
+      <div class="grid grid-cols-5  gap-2 pt-40 pb-28 ">
+         <div class="col-span-5 sm:col-span-2 md:col-span-2 relative  mx-auto px-4 w-72 w-72"><img class="rounded-full border border-gray-100 shadow-sm  " src="/static/media/profile.fa72a265.png" alt="user image"></div>
+         <div class="px-4 col-span-5 sm:col-span-3 md:col-span-3 font-general-regular w-full text-center sm:text-left mx-auto ">
+            <p class="mb-4 text-ternary-dark dark:text-ternary-light text-lg">Desarrollador de software Full Stack con experiencia en la creación de aplicaciones web/mobile.
+            </p>
+            <p class="mb-4 text-ternary-dark dark:text-ternary-light text-lg">
+               Trabajando con equipos de varios desarrolladores utilizando metodologías ágiles como Scrum,
+               en la parte de backend y frontend.
+            </p>
+            <p class="mb-4 text-ternary-dark dark:text-ternary-light text-lg">
+               Principalmente con PHP (Laravel/Symfony) y Javascript (Angular/Ionic),
+               he desarrollado APIs con Symfony y Laravel, especial interés en las nuevas tecnologías y siempre en continua evolución.
+            </p>
+         </div>
+      </div>
+   </div>
+   <div style="opacity: 1;">
+      <div class="py-10 mt-10  bg-primary-light dark:bg-ternary-dark shadow-sm">
+         <p class="font-general-medium text-2xl sm:text-3xl  text-center text-primary-dark dark:text-primary-light">Tecnologias con las que he trabajado</p>
+      </div>
+   </div>
+   <div class="container mx-auto" style="opacity: 1;">
+      <div class=" square mt-10 sm:mt-20" style="opacity: 1; transform: none;">
+         <div class="grid grid-cols-5 sm:grid-cols-5 mt-10 sm:mt-14 sm:gap-10 md:gap-10"><img src="/static/media/php.f14cc420.svg" class="h-full w-50 md:w-50 px-4 xl:px-14 border-ternary-light dark:border-ternary-dark rounded-lg mb-8 cursor-pointer"><img src="/static/media/Laravel.d0cb2f2a.svg" class="h-full w-50 md:w-50 px-4 xl:px-14 border-ternary-light dark:border-ternary-dark rounded-lg mb-8 cursor-pointer"><img src="/static/media/symfony-seeklogo.com.b147dc8d.svg" class="h-full w-50 md:w-50 px-4 xl:px-14 border-ternary-light dark:border-ternary-dark rounded-lg mb-8 cursor-pointer"><img src="/static/media/mysql-seeklogo.com.e5a509a5.svg" class="h-full w-50 md:w-50 px-4 xl:px-14 border-ternary-light dark:border-ternary-dark rounded-lg mb-8 cursor-pointer"><img src="/static/media/docker.3253a6fe.svg" class="h-full w-50 md:w-50 px-4 xl:px-14 border-ternary-light dark:border-ternary-dark rounded-lg mb-8 cursor-pointer"><img src="/static/media/angular-icon-1.28ae4f3c.svg" class="h-full w-50 md:w-50 px-4 xl:px-14 border-ternary-light dark:border-ternary-dark rounded-lg mb-8 cursor-pointer"><img src="/static/media/css-3.4e47c312.svg" class="h-full w-50 md:w-50 px-4 xl:px-14 border-ternary-light dark:border-ternary-dark rounded-lg mb-8 cursor-pointer"><img src="/static/media/javascript-1.b879f838.svg" class="h-full w-50 md:w-50 px-4 xl:px-14 border-ternary-light dark:border-ternary-dark rounded-lg mb-8 cursor-pointer"><img src="/static/media/html-1.f318c8b1.svg" class="h-full w-50 md:w-50 px-4 xl:px-14 border-ternary-light dark:border-ternary-dark rounded-lg mb-8 cursor-pointer"><img src="/static/media/typescript.a6305a73.svg" class="h-full w-50 md:w-50 px-4 xl:px-14 border-ternary-light dark:border-ternary-dark rounded-lg mb-8 cursor-pointer"><img src="/static/media/ionicframework-icon.e3136362.svg" class="h-full w-50 md:w-50 px-4 xl:px-14 border-ternary-light dark:border-ternary-dark rounded-lg mb-8 cursor-pointer"><img src="/static/media/xamarin.d6f00d86.svg" class="h-full w-50 md:w-50 px-4 xl:px-14 border-ternary-light dark:border-ternary-dark rounded-lg mb-8 cursor-pointer"><img src="/static/media/android.0feb8167.svg" class="h-full w-50 md:w-50 px-4 xl:px-14 border-ternary-light dark:border-ternary-dark rounded-lg mb-8 cursor-pointer"><img src="/static/media/c--4.04d9d2bb.svg" class="h-full w-50 md:w-50 px-4 xl:px-14 border-ternary-light dark:border-ternary-dark rounded-lg mb-8 cursor-pointer"><img src="/static/media/react-seeklogo.com.ae626225.svg" class="h-full w-50 md:w-50 px-4 xl:px-14 border-ternary-light dark:border-ternary-dark rounded-lg mb-8 cursor-pointer"></div>
+      </div>
+   </div>
+   <div class="container mx-auto">
+      <div class="pt-20 sm:pt-30 pb-8 mt-20 border-t-2 border-primary-light dark:border-secondary-dark py-2 px-4">
+         <div class="font-general-regular flex flex-col justify-center items-center mb-12 sm:mb-28">
+            <p class="text-3xl sm:text-4xl text-primary-dark dark:text-primary-light mb-5">Sígueme</p>
+            <ul class="flex gap-4 sm:gap-8 mt-4">
+               <button class="aws-btn aws-btn--mail aws-btn--visible false" role="button">
+                  <span class="aws-btn__wrapper">
+                     <span class="aws-btn__content">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 50 50" width="24" height="24">
+                           <path fill="#FFF" d="M4.9,14L25,30.5L45.1,14v-3.7H4.9V14z M4.9,36.4l9.9-11l-9.9-8.9C4.9,16.6,4.9,36.4,4.9,36.4zM45.1,36.7L34.9,25.5L45,16.7L45.1,36.7L45.1,36.7z M25,33.7l-8.2-6.8L4.9,39.6h40.2L33.2,26.8L25,33.7z"></path>
+                        </svg>
+                        <span> </span>
+                     </span>
+                  </span>
+               </button>
+               <a class="aws-btn aws-btn--linkedin aws-btn--visible false" role="button" href="https://www.linkedin.com/in/francesc-for%C3%A9s-campos-3494a2147">
+                  <span class="aws-btn__wrapper">
+                     <span class="aws-btn__content">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 50 50" width="24" height="24">
+                           <path fill="#FFF" d="M13.8,41.7H5.4V13.6h8.4C13.8,13.6,13.8,41.7,13.8,41.7z M44.7,41.7h-8.4v-15c0-3.9-1.4-5.9-4.2-5.9c-2.2,0-3.6,1.1-4.3,3.3c0,3.5,0,17.6,0,17.6h-8.4c0,0,0.1-25.3,0-28.1h6.7l0.5,5.6h0.2c1.7-2.8,4.5-4.7,8.3-4.7c2.9,0,5.2,0.8,7,2.8s2.7,4.7,2.7,8.5L44.7,41.7L44.7,41.7z M9.6,2.3C12,2.3,14,4.2,14,6.5s-2,4.2-4.4,4.2S5.2,8.8,5.2,6.5C5.3,4.2,7.2,2.3,9.6,2.3z"></path>
+                        </svg>
+                        <span> </span>
+                     </span>
+                  </span>
+               </a>
+               <a class="aws-btn aws-btn--github aws-btn--visible false" role="button" href="https://github.com/francescfores">
+                  <span class="aws-btn__wrapper">
+                     <span class="aws-btn__content">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 50 50" width="24" height="24">
+                           <path fill="#FFF" d="M25,2.5C12.2,2.5,1.9,12.8,1.9,25.6c0,10.2,6.6,18.9,15.8,21.9c1.2,0.2,1.5-0.5,1.5-1.1c0-0.5,0-2.1,0-4c-6.4,1.4-7.8-3-7.8-3c-1-2.7-2.6-3.4-2.6-3.4C6.7,34.6,9,34.6,9,34.6c2.3,0.2,3.5,2.4,3.5,2.4c2.1,3.5,5.4,2.5,6.7,1.9c0.2-1.5,0.8-2.5,1.5-3.1c-5.1-0.6-10.5-2.6-10.5-11.4c0-2.5,0.9-4.6,2.4-6.2c-0.2-0.6-1-2.9,0.2-6.1c0,0,1.9-0.6,6.3,2.4c1.8-0.5,3.8-0.8,5.8-0.8s3.9,0.3,5.8,0.8c4.4-3,6.3-2.4,6.3-2.4c1.3,3.2,0.5,5.5,0.2,6.1c1.5,1.6,2.4,3.7,2.4,6.2c0,8.9-5.4,10.8-10.5,11.4c0.8,0.7,1.6,2.1,1.6,4.3c0,2.9,0,5.6,0,6.4c0,0.6,0.4,1.3,1.5,1.1C41.4,44.5,48,35.9,48,25.7C48.1,12.8,37.8,2.5,25,2.5z"></path>
+                        </svg>
+                        <span> </span>
+                     </span>
+                  </span>
+               </a>
+            </ul>
+         </div>
+         <div class="font-general-regular flex justify-center items-center text-center">
+            <div class="text-lg text-ternary-dark dark:text-ternary-light">© 2024<a href="https://github.com/francescfores" target="__blank" class="hover:underline hover:text-indigo-600 dark:hover:text-indigo-300 ml-1 duration-500">Portfolio</a>.<a href="https://francescfores.github.io/" target="__blank" class="text-secondary-dark dark:text-secondary-light font-medium uppercase hover:underline hover:text-indigo-600 dark:hover:text-indigo-300 ml-1 duration-500">Francesc Fores</a></div>
+         </div>
+      </div>
+   </div>
+   <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="scrollToTop" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="height: 45px; width: 45px; border-radius: 50px; right: 50px; bottom: 50px; display: none; padding: 5px;">
+      <polyline points="18 15 12 9 6 15"></polyline>
+   </svg>
+</div>
