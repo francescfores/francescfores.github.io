@@ -162,13 +162,16 @@ singleProjectData = [
           {
             id: 1,
             title:'Introducción',
-            details:'Desde el inicio, mi visión no fue construir un blog tradicional, sino crear una plataforma modular y dinámica. El objetivo era permitir a los usuarios crear contenido flexible y reutilizable, superando las limitaciones de los blogs convencionales. La plataforma ofrece la capacidad de combinar y crear componentes predefinidos, como tarjetas, imágenes y texto, para que los usuarios puedan personalizar sus publicaciones de manera creativa y adaptativa.'
+            details:
+                'Desde el principio, busqué crear un blog modular y dinámico, lejos de los diseños tradicionales, '+
+                'permitiendo a los usuarios crear contenido dinámico y reutilizable. La plataforma ofrece flexibilidad al permitir que los usuarios combinen componentes predefinidos para personalizar sus publicaciones, superando así las limitaciones de los blogs convencionales y brindando una experiencia creativa y adaptable.'+
+                ''
           },
-          {
-            id: 2,
-             title:'Contexto',
-            details:'Mi objetivo con este proyecto fue superar estas limitaciones, ofreciendo una plataforma donde los usuarios puedan construir sus publicaciones a partir de bloques reutilizables y dinámicos.'
-          },
+          //{
+          //  id: 2,
+          //   title:'Contexto',
+          //  details:'Mi objetivo con este proyecto fue superar estas limitaciones, ofreciendo una plataforma donde los usuarios puedan construir sus publicaciones a partir de bloques reutilizables y dinámicos.'
+          //},
           {
             id: 3,
              title:'Funcionalidad',
@@ -182,7 +185,8 @@ singleProjectData = [
           {
             id: 3,
              title:'Conclusión',
-            details: 'Aunque el proyecto ya ofrece una experiencia sólida, sigue en desarrollo. Mi plan es seguir expandiéndolo con más componentes personalizables, integración de contenido multimedia y nuevas opciones de personalización, lo que permitirá a los usuarios crear blogs aún más dinámicos y únicos.'},
+            details: 'El proyecto sigue en desarrollo y tengo planes para seguir mejorándolo. En el futuro, planeo agregar más componentes personalizables, integrar contenidos multimedia y ampliar las opciones de personalización, creando una herramienta aún más poderosa para crear blogs dinámicos y únicos.'
+          },
         ],
       },
     },
