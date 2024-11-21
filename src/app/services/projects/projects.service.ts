@@ -164,7 +164,7 @@ singleProjectData = [
             title:'Introducción',
             details:
                 'Desde el principio, busqué crear un blog modular y dinámico, lejos de los diseños tradicionales, '+
-                'permitiendo a los usuarios crear contenido dinámico y reutilizable. La plataforma ofrece flexibilidad al permitir que los usuarios combinen componentes predefinidos para personalizar sus publicaciones, superando así las limitaciones de los blogs convencionales y brindando una experiencia creativa y adaptable.'+
+                'permitiendo a los usuarios crear contenido dinámico y reutilizable.'+
                 ''
           },
           //{
@@ -175,17 +175,19 @@ singleProjectData = [
           {
             id: 3,
              title:'Funcionalidad',
-            details: 'La plataforma permite a los usuarios seleccionar y personalizar componentes básicos predefinidos, como tarjetas, imágenes y texto. Estos componentes se pueden reorganizar y combinar para crear diseños únicos, sin depender de plantillas fijas. Los usuarios también pueden crear subcomponentes personalizados, lo que permite una mayor flexibilidad y creatividad en la creación de contenido dinámico y atractivo.'
+            details:'Desarrollado con Angular para gestionar la arquitectura modular y reutilización de componentes, Tailwind CSS para una estilización rápida y flexible, y Laravel en el backend, proporcionando una API robusta.'
+
           },
           {
             id: 3,
              title:'Tecnologías',
-            details:'Desarrollado con Angular para gestionar la arquitectura modular y reutilización de componentes, Tailwind CSS para una estilización rápida y flexible, y Laravel en el backend, proporcionando una API robusta para la gestión de contenido. Esta combinación permitió crear una plataforma escalable, moderna y totalmente personalizable.'
+            details: 'La plataforma permite a los usuarios seleccionar y personalizar componentes básicos predefinidos, como tarjetas, imágenes y texto. Estos componentes se pueden reorganizar y combinar para crear diseños únicos. Los usuarios también pueden crear subcomponentes personalizados, lo que permite una mayor flexibilidad y creatividad en la creación de contenido dinámico y atractivo.'
+
           },
           {
             id: 3,
              title:'Conclusión',
-            details: 'El proyecto sigue en desarrollo y tengo planes para seguir mejorándolo. En el futuro, planeo agregar más componentes personalizables, integrar contenidos multimedia y ampliar las opciones de personalización, creando una herramienta aún más poderosa para crear blogs dinámicos y únicos.'
+            details: 'El proyecto sigue en desarrollo y tengo planes para seguir mejorándolo. En el futuro, planeo agregar más componentes, creando una herramienta aún más poderosa para crear blogs dinámicos y únicos.'
           },
         ],
       },

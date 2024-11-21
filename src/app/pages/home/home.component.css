@@ -24,17 +24,16 @@ background-size: cover;
       filter: drop-shadow(0 0 6px rgb(100 116 139 / 0.1));
 }
 
-.ribbon {
-    z-index: 9999;
-    background-color: #1e88e5;
-    overflow: hidden;
-    white-space: nowrap;
-    position: fixed;
-    right: -30px;
-    bottom: 38px;
-    padding-right: 20px;
-    padding-left: 20px;
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    font-size: 14px;
+
+.neon:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    transform: translateZ(-1px);
+    pointer-events: none;
+    transition: filter .3s ease;
+    background: linear-gradient(123deg, #083344, #0f172a 50%, #083344);
+    background-clip: content-box;
+    padding: 1px;
 }
