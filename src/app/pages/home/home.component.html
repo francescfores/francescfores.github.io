@@ -6,15 +6,15 @@
    <div class="relative z-10 ">
       <app-sidebar-blog></app-sidebar-blog>
       <div class="container mx-auto pt-28 flex flex-col justify-center items-center">
-         <section class="gap-16 w-full flex flex-col justify-between items-center sm:flex-row mt-12 md:mt-2" style="opacity: 1;">
-            <div class="w-full sm:w-1/2 flex flex-col justify-start items-start whitespace-nowrap">
-               <h1 class="break-all font-medium mt-4 text-2xl md:text-4xl text-start leading-normal " style="opacity: 1;">
+         <section class="sm:gap-16 w-full flex flex-col justify-between items-center sm:flex-row  md:mt-2" >
+            <div class="w-full sm:w-1/2 flex flex-col justify-start sm:items-start whitespace-nowrap">
+               <h1 class="break-all font-medium mt-4 text-2xl md:text-4xl text-center sm:text-start leading-normal " >
                   Hola soy <br>
                   <span class="font-bold text-primary">Francesc Fores</span>,  <br>
                   <span class=""> desarrollador Full Stack</span>
                </h1>
-               <div class="mt-10 flex justify-center sm:block mb-10" style="opacity: 1;">
-                  <a download="cv.html" href="./assets/cv/curriculum.html" aria-label="Descargar CV">
+               <div class="mt-10 flex justify-center sm:block mb-10" >
+                  <a download="curriculum.pdf" href="./assets/cv/curriculum.pdf" aria-label="Descargar CV">
                      <app-button3d class="w-[100px]"
                      [rounded]="'7px'" [title]="''"
                      [type]="'btn_primary'"
@@ -33,11 +33,11 @@
                   </a>
                </div>
             </div>
-            <div class=" w-full sm:w-1/2 p-10 text-right  mt-8 sm:mt-0 inline " style="opacity: 1; transform: none;">
+            <div class=" w-full sm:w-1/2 p-10 text-right  sm:mt-0 inline ">
                <img *ngIf='isDarkEnable' [src]="'./assets/images/develop_dark.svg'"
-               class="dark:development development ml-2 float-right" alt="Developer">
+               class="dark:development development  float-right" alt="Developer">
                <img *ngIf='!isDarkEnable' [src]="'./assets/images/develop_light.svg'"
-               class="dark:development development ml-2 float-right" alt="Developer">
+               class="dark:development development  float-right" alt="Developer">
             </div>
          </section>
          <section id="projects"  class="pt-20 flex flex-col gap-20 flex-wrap justify-center items-center">
@@ -88,8 +88,8 @@
          <p class="font-general-medium text-2xl sm:text-3xl  text-center text-primary-dark dark:text-primary-light">Tecnologias con las que he trabajado
          </p>
       </div>
-      <div class="container mx-auto pt-10" style="opacity: 1;">
-         <div class="" style="opacity: 1; transform: none;">
+      <div class="container mx-auto pt-10" >
+         <div class="" >
             <div class="grid grid-cols-3 sm:grid-cols-5 mt-10 gap-8 items-center md:gap-10 justify-center ">
                <img src="../../assets/logos/Angular.svg" class="w-20 mx-auto md:w-30  border-ternary-light dark:border-ternary-dark cursor-pointer">
                <img src="../../assets/logos/TypeScript.svg" class="w-20 mx-auto md:w-30  border-ternary-light dark:border-ternary-dark cursor-pointer">
@@ -115,8 +115,8 @@
                <app-button3d 
                [rounded]="'7px'" [title]="''"
                [type]="'btn_disabled'"
-               font_size="14px" [font_body_weight]="'900'"  [height]="'45px'"
-               [width]="'100px'" [raise]="6">
+               font_size="14px" [font_body_weight]="'900'"  [height]="'40px'"
+               [width]="'80px'" [raise]="6">
                <div class="flex gap-3  items-center uppercase">
                   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 50 50" width="24" height="24">
                      <path fill="#FFF" d="M4.9,14L25,30.5L45.1,14v-3.7H4.9V14z M4.9,36.4l9.9-11l-9.9-8.9C4.9,16.6,4.9,36.4,4.9,36.4zM45.1,36.7L34.9,25.5L45,16.7L45.1,36.7L45.1,36.7z M25,33.7l-8.2-6.8L4.9,39.6h40.2L33.2,26.8L25,33.7z"></path>
@@ -129,8 +129,8 @@
                [bg_front_color]="'#0284c7'" 
                [bg_back_color]="'#075985'" 
                [border_style]="'solid #38bdf8 var(--border)'" 
-               font_size="14px" [font_body_weight]="'900'"  [height]="'45px'"
-               [width]="'100px'" [raise]="6">
+               font_size="14px" [font_body_weight]="'900'"  [height]="'40px'"
+               [width]="'80px'" [raise]="6">
                <a  role="button" href="https://www.linkedin.com/in/francesc-for%C3%A9s-campos-3494a2147">
                   <div class="flex gap-3  items-center uppercase">
                      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 50 50" width="24" height="24">
@@ -144,8 +144,8 @@
                [bg_front_color]="'#1e293b'" 
                [bg_back_color]="'#111827'" 
                [border_style]="'solid #475569 var(--border)'" 
-               font_size="14px" [font_body_weight]="'900'"  [height]="'45px'"
-               [width]="'100px'" [raise]="6">
+               font_size="14px" [font_body_weight]="'900'"  [height]="'40px'"
+               [width]="'80px'" [raise]="6">
                <a role="button" href="https://github.com/francescfores">
                   <div class="flex gap-3  items-center uppercase">
                      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 50 50" width="24" height="24">
