@@ -8,8 +8,21 @@ import { Injectable } from '@angular/core';
 })
 export class ProjectsService {
   // Define la array como propiedad del servicio
-  projectsData = [
+  /*
      {
+      id: 0,
+        title: 'FastFingers',
+      category: 'Web Application',
+      img: '/assets/../assets/images/projects/893shots_so.png',
+      ProjectHeader: {
+        title: 'Project Management UI - From Context',
+        publishDate: 'Jul 26, 2021',
+        tags: 'UI / Frontend',
+      },
+    },
+  */
+  projectsData = [
+         {
       id: 0,
         title: 'CodeBlog',
       category: 'Web Application',
@@ -20,6 +33,7 @@ export class ProjectsService {
         tags: 'UI / Frontend',
       },
     },
+
     {
       id: 2,
       title: 'easy2bwise',
