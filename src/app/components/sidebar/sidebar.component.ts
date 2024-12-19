@@ -52,13 +52,11 @@ export class SidebarComponent implements OnInit {
     });
     this.dark=this.isDarkEnable
 
-    console.log(this.isDarkEnable)
 
     this.router.events
       .pipe(filter(event => event instanceof NavigationEnd))
       .subscribe((event: NavigationEnd) => {
         // Aquí puedes manejar el evento de navegación
-        console.log('Navegación a:', event.url);
         $('#navbar').removeClass('-translate-y-16');
 
       });

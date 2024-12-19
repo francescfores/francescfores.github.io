@@ -14,11 +14,11 @@
         'h-0.5 w-4 mb-1 bg-primary transition ease transform duration-300':true,
         'opacity-0' : sidebarOpen,
         'opacity-50 group-hover:opacity-100': !sidebarOpen}">        </div>
-        <div [ngClass]="{
+        <div [ngClass]="{ 
         'h-0.5 w-4  mb-1 bg-primary transition ease transform duration-300':true,
         '-rotate-45 -translate-y-1.5 opacity-50 group-hover:opacity-100' : sidebarOpen,
         'opacity-50 group-hover:opacity-100': !sidebarOpen}">
-        </div>
+        </div>  
       </button>
       <div class="flex m-auto md:ml-0 md:mr-auto md:my-auto justify-center items-center ">
         <a [routerLink]="['/blog']">
