@@ -12,6 +12,7 @@
 	*{
 		font-family: 'Ubuntu',sans-serif;
 	}
+
 	h1,h2,h3,h4,h5,h6{
 		color:#00695C;
 		/*font-family: 'Audiowide', cursive;*/
@@ -24,19 +25,14 @@
 		color:#00695C;
 		margin-bottom: 15px!important;
 	}
-	h5{
-		/*font-family: 'Audiowide', cursive;*/
-	}
 
-	h6{
-		/*font-family: 'Audiowide', cursive;*/
-	}
 	p{
 		font-family: 'Comfortaa', cursive;
-		font-size :19.0px!important;
+		font-size :19;
 	}
 	.right-section{
 		background: #f5f5f5;
+		padding:30px;
 	}
 	.row-bg{
 		background: #009688;
@@ -45,42 +41,20 @@
 		background:#009688;
 		/*height:100%;*/
 		padding-bottom: 10px;
-	}
-	.right-section {
-		background: #f5f5f5;
-	}
-	.left-section p,
-	.left-section h1,
-	.left-section h2,
-	.left-section h3,
-	.left-section h4,
-	.left-section h5,
-	.left-section h6{
-		color:white;
-	}
-	article{
-		margin-top :40px;
-		/*margin-bottom :40px;*/
-	}
-	ul{
-		list-style:circle;
-		padding-left :20px;
-	}
-	article h3{
-		/*margin-bottom:15px;*/
+		padding: 30px;
+
 	}
 	article div {
 		margin-bottom: 25px;
 		margin-top: 25px;
 	}
-	article div h6,
-	article div h4{
+	article  h6,
+	article  h4{
 		display:inline;
 	}
 	.left-section p{
-		margin-left: 3px;
 	}
-	article div .date{
+	article  .date{
 		margin-left: 10px;
 		display:inline;
 		font-size: 16px!important;
@@ -93,70 +67,141 @@
 		margin-left: 10px;
 		margin-top: 10px;
 	}
-	article div b{
-		color:#00695C
+	.left-section p,
+	.left-section a,
+	.left-section h1,
+	.left-section h2,
+	.left-section h3,
+	.left-section h4,
+	.left-section h5,
+	.left-section h6{
+		color:white;
+	}
+	article{
+		margin-top :20px;
+		/*margin-bottom :40px;*/
+	}
+
+	article h3{
+		/*margin-bottom:15px;*/
+	}
+	article div {
+		margin-bottom: 25px;
+		margin-top: 25px;
+	}
+	article  h6,
+	article  h4{
+		display:inline;
+	}
+	.left-section{
+		display:flex;
+		flex-direction: column;
+		align-items:center;
 	}
 
 	.left-section p{
 		font-size: 16px!important;
 	}
+
+	.font-semibold{
+  		font-weight: 900;
+  	}
+  	.text-primary-color{
+		color:#00695C;
+	}
+
+	.text-sm{
+		font-size: 18px!important;
+	}
+	.img_profile{
+		background:rgba(0, 0, 0, 0.2); 
+		border-radius: 200px;
+		border: 4px rgba(255, 255, 255, 0.7) solid;
+		transform:rotate(6deg);
+	}
 </style>
 <body>
 <div class="container-fluid" >
 	<div class="row  row-bg">
-		<section class="text-center text-sm-left col-xs-12 col-sm-4 col-md-4 col-lg-3 left-section">
-			<article class="article">
-				<h3 style="margin-bottom:30px;">
-					Info contacto
+		<section class=" text-center text-sm-left col-xs-12 col-sm-4 col-md-4 col-lg-3 left-section">
+			<img class="img_profile" with="180" height="180" src="https://francescfores.github.io/assets/images/pictur_2.png" >
+
+			<article>
+				<h3 class="" style="margin-bottom: 0px">Francesc Forés </h3>
+			<p class="">Software Developer</p>
+				<h3 style="margin-bottom:30px; margin-top:40px;">
+					Contacto
 				</h3>
 				<h6>Email</h6><p>&nbsp;ffores93@gmail.com</p>
-				<h6>Telefono</h6><p>&nbsp;640775609</p>
-				<h6>Dirección</h6><p> Carrer de l'Illa de Gènova, <br> n8, Tortosa</p>
-			</article>
-			<article>
-				<h3 style="margin-bottom:30px;">
-					SKILLS
+				<h6>Teléfono</h6><p> &nbsp;640775609</p>
+				<h6>Dirección</h6><p> &nbsp;Tortosa Tarragona, España</p>
+				<h3 style="margin-bottom:30px; margin-top:40px;">Habilidades
 				</h3>
-				<p> Trabajo en equipo</p>
-				<p> SCRUM</p>
 				<p> Creatividad</p>
+				<p> Trabajo en equipo</p>
+				<p> Apasionado</p>
 				<p> Adaptabilidad</p>
-				<p> Empatía</p>
-			</article>
-			<article>
-				<h3 style="margin-bottom:30px;"> Idiomas </h3>
-				<p> Castellano</p>
-				<p> Catala</p>
+				<p> Curiosidad</p>
+
+				<h3 style="margin-bottom:30px; margin-top:40px;">
+					Tecnologías
+				</h3>
+				<p> TypeScript (Angular)</p>
+				<p> PHP (Laravel Symfony)</p>
+				<p> SQL (MySQL)</p>
+				<p> HTML/CSS/JS</p>
+				<p> C# (.NET)</p>
+				<p> TailwindCSS</p>
+				<p> Docker</p>
+				<p> Git</p>
+				<p> AWS</p>
+				<h3 style="margin-bottom:30px; margin-top:40px;">
+				 Idiomas </h3>
+				<p> Castellano (Nativo)</p>
+				<p> Catalán (Nativo)</p>
+				<p> Ingles (Básico)</p>
+				<h3 style="margin-bottom:30px; margin-top:40px;">
+				 Enlaces </h3>
+				<p><a style="color: white;" href="https://francescfores.github.io/">Porfolio</a></p>
+				<p><a style="color: white;" href="https://www.linkedin.com/in/francesc-for%C3%A9s-campos-3494a2147/">Linkedin</a></p>
 			</article>
 		</section>
 		<section class="text-center text-sm-left col-xs-12 col-sm-8 col-md-8 col-lg-9 right-section">
 			<article>
-				<h3 class="" style="margin-bottom: 0px">Francesc Forés Campos</h3>
-
-				<p class="">Software Developer</p>
-				<br>
+				<div>
 				<h3>
 					Resumen profesional
 				</h3>
-				<p>
-					Desarrollador de software con experiencia en la creación de aplicaciones web/mobile <br>
-					trabajando con equipos de varios desarrolladores utilizando metodologías ágiles como Scrum,<br>
-					en la parte de backend y frontend, principalmente con PHP (Symfony/Laravel) y Javascript (Angular/Ionic),<br>
-					he desarrollado APIs con Symfony y Laravel, especial interés en las nuevas tecnologías y siempre en continua evolución.
+					<p>
+				<b>Desarrollador Full Stack</b>  especializado en la creación de aplicaciones web y móviles escalables y de alto rendimiento.<br><br>
+				He trabajado con equipos multidisciplinarios con metodologías ágiles <b>(Scrum)</b> y como freelance, diseñando soluciones a medida para diversas industrias. Domino tecnologías como <b> TypeScript (Angular/Ionic)</b> y <b>PHP (Laravel/Symfony)</b>, con amplia experiencia en la implementación de 
+				<b>APIs RESTful </b>y el desarrollo de aplicaciones completas, priorizando siempre la experiencia de usuario y las mejores prácticas de desarrollo.
+				<br><br>
+				Me mantengo constantemente actualizado con las últimas tecnologías para ofrecer soluciones innovadoras y eficaces que generan un impacto real en cada proyecto.
 				</p>
+				</div>
 			</article>
-			<div class="col-sm-6 right-section"></div>
-			<div class="col-sm-6 right-section"></div>
-			<article>
+			<article style="padding-top: 20px;">
 				<h3>EXPERIENCIA LABORAL</h3>
 				<div>
+				
+					<h4>Proyectos Personales / Freelance</h4>
+					<p class="date">Trabajo remoto desarrollador de software &nbsp; 2022 - 2024</p> <br>
+					<p>
+					Mantenimiento y optimización de proyectos existentes, garantizando su buen funcionamiento y escalabilidad. Durante este tiempo, he ampliado mis conocimientos en arquitectura de software y buenas prácticas de desarrollo. Además, desarrollé un ecommerce dinámico utilizando Angular (frontend) y PHP (Laravel) con MySQL (backend), así como un blog dinámico con un editor de componentes en tiempo real.
+				</p>
+						 <p class="text-sm font-semibold"><span class="text-primary-color">Tecnologías: </span>
+						 TypeScript (Angular), PHP (Laravel), MySQL, Docker, Git, APIs RESTful, JavaScript, HTML, CSS, TailwindCSS </p>
+				</div>
+				<div>
+
 					<h4>Datantec</h4>
 					<p class="date">Trabajo híbrido desarrollador de software &nbsp; 2019 - 2022</p> <br>
 					<p>Creación y mantenimiento de proyectos web app con gestión de usuarios, <br>
-						productos, pedidos etc, con un equipo de dos desarrolladores, en backend y en frontend. <br>
+						productos, pedidos y otras funcionalidades clave, con un equipo de dos desarrolladores, en backend y en frontend. <br>
 						Completo desarrollo de una aplicación corporativa de escaneo de tickets web app/mobile app/API/OCR
-					</p>
-					<p><h6>Tecnologías: </h6>Angular (Web app), Symfony(API), ionic (Mobile app), OCR (Python tesseract)</p>
+		 			</p>
+						 <p class="text-sm font-semibold"><span class="text-primary-color">Tecnologías: </span>TypeScript (Angular) , Symfony(API), Ionic (Mobile app), Python (OCR tesseract)</p>
 				</div>
 				<div>
 					<h4>Ideos agencia de marketing</h4>
@@ -164,7 +209,7 @@
 					<p> Desarrollador web con Wordpress. <br>
 						Creación de varios proyectos ecommerce dedicadas a la venta online.
 					</p>
-					<p><h6>Tecnologías: </h6> Wordpress, PHP, Symfony</p>
+					<p class="text-sm font-semibold"><span class="text-primary-color">Tecnologías: </span> Wordpress, PHP, Symfony</p>
 				</div>
 				<div>
 					<h4>Easy2Bwise</h4>
@@ -173,7 +218,7 @@
 						gestión de usuarios/departamentos/categorías/formación/herramientas, etc. <br>
 						Creación de componentes independientes con angular.
 					</p>
-					<p><h6>Tecnologías: </h6>Laravel, PHP ,MYSQL, Angular, Javascript, HTML, CSS </p>
+					<p class="text-sm font-semibold"><span class="text-primary-color">Tecnologías: </span>Laravel, PHP ,MYSQL, Angular, Javascript, HTML, CSS </p>
 				</div>
 				<div>
 					<h4>Emburse Captio SL</h4>
@@ -182,13 +227,13 @@
 						con los viajes de empresa a través de un escáner de tickets (OCR) con un equipo de <br>
 						10 o más desarrolladores, escribiendo código tanto en backend como en frontend como programador junior.
 					</p>
-					<p><h6>Tecnologías: </h6> .Net, C#, Xamarin Classic, Xamarin Forms, Android, IOS, Javascript, HTML, CSS </p>
+					<p class="text-sm font-semibold"><span class="text-primary-color">Tecnologías: </span> .Net, C#, Xamarin Classic, Xamarin Forms, Android, IOS, Javascript, HTML, CSS </p>
 				</div>
 				<div>
 					<h4>Ebretic Enginyeria SL </h4>
 					<p class="date"> Trabajo presencial administrador de sistemas &nbsp; 2015 - 2016</p>
-					<p>Administrador configuración y mantenimiento de redes y sistemas</p>
-					<p><h6>Tecnologías: </h6>Linux </p>
+					<p>Administrador, configuración y mantenimiento de redes y sistemas</p>
+					<p class="text-sm font-semibold"><span class="text-primary-color">Tecnologías: </span>Linux </p>
 				</div>
 				<div>
 					<h4>Valldeperez Instal·lacions Tècniques </h4>
@@ -196,20 +241,20 @@
 					<p>Mantenimiento electromecánico</p>
 				</div>
 			</article>
-			<article>
-				<h3>FORMNACIÓN</h3>
+			<article style="padding-top: 20px;">
+				<h3>FORMACIÓN</h3>
 				<div>
-					<h4>CFGS</h4>
+					<h4>CFGS - Institut de l'Ebre</h4>
 					<p class="date">2015 - 2017</p>
-					<p>Formación Profesional de Grado Superior, Desarrollo de Aplicaciones Multiplataforma</p>
+					<p>Formación profesional de grado superior enfocado en el desarrollo de aplicaciones web y móviles.</p>
 				</div>
 				<div>
-					<h4>CFGS</h4>
+					<h4>CFGS - Institut de l'Ebre</h4>
 					<p class="date">2015 - 2016</p>
-					<p>Formación Profesional de Grado Superior, Administración/Administrador de redes y sistemas</p>
+					<p>Formación profesional de grado superior centrado en la administración y gestión de redes y sistemas.</p>
 				</div>
 				<div>
-					<h4>CFGM</h4>
+					<h4>CFGM - Institut de l'Ebre</h4>
 					<p class="date">2014 - 2015</p>
 					<p>Formación Profesional de Grado Medio, Tecnologías/Técnicos de instrumentación y mantenimiento electromecánico</p>
 				</div>
